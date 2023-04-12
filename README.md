@@ -29,7 +29,8 @@ a Python Library, you can get a combined list for Japan-Holidays
 ## インストール方法  
 pip install MyJpHolidays  
 
-### demo prog<br>
+## デモプログラム<br>
+このページの仕様上、インデントは正しく表示出来ませんのでコピー後、修正をお願いします
 
 import MyJpHolidays
 
