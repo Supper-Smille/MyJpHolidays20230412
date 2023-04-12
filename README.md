@@ -26,4 +26,10 @@ a Python Library, you can get a combined list for Japan-Holidays
 
 秋分の日と春分の日の計算    対応期間： 1980-2150年<br>
 
+## インストール方法  
+pip install MyJpHolidays  
+<br>
+
+### demo prog.  
+
 
