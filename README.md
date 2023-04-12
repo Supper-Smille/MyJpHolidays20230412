@@ -29,7 +29,7 @@ a Python Library, you can get a combined list for Japan-Holidays
 ## インストール方法  
 pip install MyJpHolidays  
 
-### demo prog.<br>
+### demo prog<br>
 
 import MyJpHolidays
 
