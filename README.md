@@ -35,9 +35,9 @@ pip install MyJpHolidays
 import MyJpHolidays
 
 vYear : int = 2023  
-vHoliday : object = MyJpHolidays.YearToHolidays(vYear)
-vMax : int = len(vHoliday)
-i : int
+vHoliday : object = MyJpHolidays.YearToHolidays(vYear)  
+vMax : int = len(vHoliday)  
+i : int  
 for i in range(vMax):
     vTemp_1 : int = vHoliday["tNum"][i]
     vTemp_2 : str = vHoliday["tDate"][i]
