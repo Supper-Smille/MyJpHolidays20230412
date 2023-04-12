@@ -3,7 +3,6 @@ a Python Library, you can get a combined list for Japan-Holidays
 
 
 
-以下をcopyして、適当なファイル名で保存して実行してみて下さい
 
 #################################################################
 # 日本の１年間の祝日を調べます（デモ）
@@ -63,4 +62,5 @@ for i in range(vMax):
                                                       #       例:   こどもの日
     
     print( str(vTemp_1) + "  " + vTemp_2 + "(" + vTemp_3 + ") " + vTemp_4)
+
 
