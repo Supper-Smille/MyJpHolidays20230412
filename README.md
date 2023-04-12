@@ -38,11 +38,11 @@ vHoliday : object = MyJpHolidays.YearToHolidays(vYear)
 vMax : int = len(vHoliday)  
 i : int  
 for i in range(vMax):  
-    vTemp_1 : int = vHoliday["tNum"][i]  
-    vTemp_2 : str = vHoliday["tDate"][i]  
-    vTemp_3 : str = vHoliday["tYOUBI"][i]
-    vTemp_4 : str = vHoliday["tSYUKUJITSU_Name"][i]
-
-    print( str(vTemp_1) + "  " + vTemp_2 + "(" + vTemp_3 + ") " + vTemp_4)
-    
+ vTemp_1 : int = vHoliday["tNum"][i]  
+ vTemp_2 : str = vHoliday["tDate"][i]  
+ vTemp_3 : str = vHoliday["tYOUBI"][i]  
+ vTemp_4 : str = vHoliday["tSYUKUJITSU_Name"][i]  
+ 
+ print( str(vTemp_1) + "  " + vTemp_2 + "(" + vTemp_3 + ") " + vTemp_4)
+ 
     
