@@ -24,20 +24,6 @@ a Python Library, you can get a combined list for Japan-Holidays
 pip install MyJpHolidays  
 
 ## デモプログラム<br>
-このページの仕様上、インデントは正しく表示出来ませんのでコピー後、修正をお願いします
-
-import MyJpHolidays
-
-vYear : int = 2023  
-vHoliday : object = MyJpHolidays.YearToHolidays(vYear)  
-vMax : int = len(vHoliday)  
-i : int  
-for i in range(vMax):  
- vTemp_1 : int = vHoliday["tNum"][i]  
- vTemp_2 : str = vHoliday["tDate"][i]  
- vTemp_3 : str = vHoliday["tYOUBI"][i]  
- vTemp_4 : str = vHoliday["tSYUKUJITSU_Name"][i]  
- 
- print( str(vTemp_1) + "  " + vTemp_2 + "(" + vTemp_3 + ") " + vTemp_4)
+[URL](https://github.com/Supper-Smille/MyJpHolidays20230412/blob/main/demo.py)
  
     
