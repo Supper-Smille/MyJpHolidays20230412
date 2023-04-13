@@ -17,7 +17,7 @@ vHoliday : object = MyJpHolidays.YearToHolidays(vYear)
 vYear 年の祝日の一覧が複合配列にされて返ってきます  
 オリジナルの休みも含みます  
 通し番号、日付、曜日、祝日名の複合配列です  
-要素の数は、len(変数名) で求められます  
+要素の数は、len(vHoliday) で求められます  
 複合配列内の日付は、strです、datetimeではありません  
 アクセスの仕方はデモを参考にして下さい   
 
