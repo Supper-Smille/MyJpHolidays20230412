@@ -37,14 +37,12 @@ PACKAGES = [
 
 CLASSIFIERS = [
 	'Development Status :: 4 - Beta',
-	#'Development Status :: 5 - Production/Stable',
 	'Environment :: Console',
 	'Environment :: Win32 (MS Windows)',
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: Developers',
         'Intended Audience :: System Administrators',
         'License :: OSI Approved :: MIT License',
-        #'Operating System :: MacOS :: MacOS X',
         'Operating System :: Microsoft :: Windows',
         'Programming Language :: Python',
         'Topic :: Office/Business',
