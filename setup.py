@@ -5,7 +5,14 @@
 
 from setuptools import setup
 import MyJpHolidays
+from codecs import open
+from os import path
 
+
+here = path.abspath(path.dirname(__file__))
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+    
 
 DESCRIPTION = "MyJpHolidays: You get a combined list of Japan-Holidays. You can customize orignal holidays used ini-file."
 NAME = 'MyJpHolidays'
@@ -19,8 +26,7 @@ PYTHON_REQUIRES = ">=3.8.10"
 
 
 INSTALL_REQUIRES = [
-    'numpy >=1.23.1', 
-    're>=2.2.1'
+    'numpy >=1.23.1'
 ]
 
 
@@ -35,9 +41,7 @@ setup(name=NAME,
       maintainer=AUTHOR,
       maintainer_email=AUTHOR_EMAIL,
       description=DESCRIPTION,
-      
-      #long_description=long_description,
-      
+      long_description=long_description,
       license=LICENSE,
       url=URL,
       version=VERSION,
