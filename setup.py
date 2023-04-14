@@ -35,6 +35,23 @@ PACKAGES = [
 ]
 
 
+CLASSIFIERS = [
+		'Development Status :: 4 - Beta',
+		#'Development Status :: 5 - Production/Stable',
+		'Environment :: Console',
+		'Environment :: Win32 (MS Windows)',
+        'Intended Audience :: End Users/Desktop',
+        'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
+        'License :: OSI Approved :: MIT License',
+        #'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Microsoft :: Windows',
+        'Programming Language :: Python',
+        'Topic :: Office/Business',
+        'Topic :: Office/Business :: Scheduling',
+        'Topic :: Software Development :: Libraries'
+]
+
 setup(name=NAME,
       author=AUTHOR,
       author_email=AUTHOR_EMAIL,
@@ -52,7 +69,6 @@ setup(name=NAME,
       # extras_require=EXTRAS_REQUIRE,
       
       packages=PACKAGES,
-      
-      #classifiers=CLASSIFIERS
+      classifiers=CLASSIFIERS
     )
 
