@@ -1,6 +1,6 @@
 # 更新日 2023.04.14
 #
-# MyJpHolidays	v0.8.3
+# MyJpHolidays	v0.8.5
 #
 
 import datetime
