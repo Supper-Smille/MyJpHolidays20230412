@@ -1,5 +1,8 @@
-# 更新日 2023.04.08
+# 更新日 2023.04.14
 #
+# MyJpHolidays	v0.8.3
+#
+
 import datetime
 import re
 import numpy as np
